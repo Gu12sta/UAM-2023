@@ -2,7 +2,6 @@ package exercicio01;
 
     import java.util.Scanner;
     //if (media>=7)
-    //
 
 /**
  * exercicio01
