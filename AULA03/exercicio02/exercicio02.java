@@ -15,7 +15,7 @@ public class exercicio02 {
         valorPrestação = teclado.nextDouble();
 
         limitePrestacao = ((salariobruto ) ) * 0.3;
-        System.out.println("O valor máximo da parcela é" + limitePrestacao);
+        System.out.println("O valor máximo da parcela é " + limitePrestacao);
 
         if (valorPrestação <= limitePrestacao) {
             System.out.println("Emprestimo aprovado");
