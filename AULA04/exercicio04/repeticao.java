@@ -1,5 +1,7 @@
 package exercicio04;
 
+import java.util.Scanner;
+
 /*
  * while = enquanto
  * repete o bloco de comandos enquanto a condição for verdadeira
@@ -7,16 +9,21 @@ package exercicio04;
 
 public class repeticao {
     public static void main(String[] args) {
-    int contador;
+    Scanner scanner = new Scanner(System.in);
+    int contador, limite;
 
-    contador = 1;
-    
-       while(contador <= 10){
+    System.out.println("Informe o limite da contagem");
+    limite = scanner.nextInt();
+
+    contador = 1; //inicialização
+
+       while(contador <= limite){ // condição
         System.out.println(contador);
 
-        contador = contador + 1;
+        contador = contador + 1; // passo
         
        }
+       scanner.close();
     }
     
 }
